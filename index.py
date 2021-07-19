@@ -1,7 +1,14 @@
-x = "testing the water"
+# String Manipulation
+a = " Hello, World"
+# Upper casing string
+print(a.upper())
+# Upper casing stripped string
+print((a.strip()).upper())
+# Replacing H char with J
+print(a.replace('H','J'))
 
-def testFunction():
-    print('Python is currently ' + x)
+# Generating random numbers 
+# import random
 
-testFunction()
+# print(random.randrange(0,10000))
 
